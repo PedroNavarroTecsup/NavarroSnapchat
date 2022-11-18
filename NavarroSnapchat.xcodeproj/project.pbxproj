@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E673E7D53DA35337353C594 /* Pods_NavarroSnapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341BE5CF21249C27F4A2DA35 /* Pods_NavarroSnapchat.framework */; };
 		885A8B5129156E9F00DCEE59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A8B5029156E9F00DCEE59 /* AppDelegate.swift */; };
 		885A8B5329156E9F00DCEE59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A8B5229156E9F00DCEE59 /* SceneDelegate.swift */; };
-		885A8B5529156E9F00DCEE59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A8B5429156E9F00DCEE59 /* ViewController.swift */; };
+		885A8B5529156E9F00DCEE59 /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A8B5429156E9F00DCEE59 /* IniciarSesionViewController.swift */; };
 		885A8B5829156E9F00DCEE59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885A8B5629156E9F00DCEE59 /* Main.storyboard */; };
 		885A8B5A29156EA100DCEE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885A8B5929156EA100DCEE59 /* Assets.xcassets */; };
 		885A8B5D29156EA200DCEE59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885A8B5B29156EA200DCEE59 /* LaunchScreen.storyboard */; };
+		885A8B65291571E400DCEE59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 885A8B64291571E300DCEE59 /* GoogleService-Info.plist */; };
+		8869E8392915950700AF2BC6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8869E8382915950700AF2BC6 /* FirebaseAnalytics */; };
+		8869E83B2915950700AF2BC6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8869E83A2915950700AF2BC6 /* FirebaseAuth */; };
+		8869E83D2915950700AF2BC6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8869E83C2915950700AF2BC6 /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341BE5CF21249C27F4A2DA35 /* Pods_NavarroSnapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavarroSnapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		885A8B4D29156E9F00DCEE59 /* NavarroSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavarroSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		885A8B5029156E9F00DCEE59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		885A8B5229156E9F00DCEE59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		885A8B5429156E9F00DCEE59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		885A8B5429156E9F00DCEE59 /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
 		885A8B5729156E9F00DCEE59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		885A8B5929156EA100DCEE59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885A8B5C29156EA200DCEE59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		885A8B5E29156EA200DCEE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885A8B64291571E300DCEE59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA545CFC0F30A49934C06E8A /* Pods-NavarroSnapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavarroSnapchat.debug.xcconfig"; path = "Target Support Files/Pods-NavarroSnapchat/Pods-NavarroSnapchat.debug.xcconfig"; sourceTree = "<group>"; };
+		D3678934FC3E34FEB022AFD0 /* Pods-NavarroSnapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavarroSnapchat.release.xcconfig"; path = "Target Support Files/Pods-NavarroSnapchat/Pods-NavarroSnapchat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +40,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8869E8392915950700AF2BC6 /* FirebaseAnalytics in Frameworks */,
+				8869E83B2915950700AF2BC6 /* FirebaseAuth in Frameworks */,
+				8869E83D2915950700AF2BC6 /* FirebaseDatabase in Frameworks */,
+				4E673E7D53DA35337353C594 /* Pods_NavarroSnapchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7516AAC9D7B0F8C644C9749C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA545CFC0F30A49934C06E8A /* Pods-NavarroSnapchat.debug.xcconfig */,
+				D3678934FC3E34FEB022AFD0 /* Pods-NavarroSnapchat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		885A8B4429156E9E00DCEE59 = {
 			isa = PBXGroup;
 			children = (
 				885A8B4F29156E9F00DCEE59 /* NavarroSnapchat */,
 				885A8B4E29156E9F00DCEE59 /* Products */,
+				7516AAC9D7B0F8C644C9749C /* Pods */,
+				CA5943A6565D79AC326FED9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,22 @@
 			children = (
 				885A8B5029156E9F00DCEE59 /* AppDelegate.swift */,
 				885A8B5229156E9F00DCEE59 /* SceneDelegate.swift */,
-				885A8B5429156E9F00DCEE59 /* ViewController.swift */,
+				885A8B5429156E9F00DCEE59 /* IniciarSesionViewController.swift */,
 				885A8B5629156E9F00DCEE59 /* Main.storyboard */,
 				885A8B5929156EA100DCEE59 /* Assets.xcassets */,
 				885A8B5B29156EA200DCEE59 /* LaunchScreen.storyboard */,
 				885A8B5E29156EA200DCEE59 /* Info.plist */,
+				885A8B64291571E300DCEE59 /* GoogleService-Info.plist */,
 			);
 			path = NavarroSnapchat;
+			sourceTree = "<group>";
+		};
+		CA5943A6565D79AC326FED9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				341BE5CF21249C27F4A2DA35 /* Pods_NavarroSnapchat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +107,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 885A8B6129156EA200DCEE59 /* Build configuration list for PBXNativeTarget "NavarroSnapchat" */;
 			buildPhases = (
+				8C5A630B4D212F90FF9AB4BA /* [CP] Check Pods Manifest.lock */,
 				885A8B4929156E9F00DCEE59 /* Sources */,
 				885A8B4A29156E9F00DCEE59 /* Frameworks */,
 				885A8B4B29156E9F00DCEE59 /* Resources */,
+				B232C6D1B1FFDCD5CF1CCD5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = NavarroSnapchat;
+			packageProductDependencies = (
+				8869E8382915950700AF2BC6 /* FirebaseAnalytics */,
+				8869E83A2915950700AF2BC6 /* FirebaseAuth */,
+				8869E83C2915950700AF2BC6 /* FirebaseDatabase */,
+			);
 			productName = NavarroSnapchat;
 			productReference = 885A8B4D29156E9F00DCEE59 /* NavarroSnapchat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +151,9 @@
 				Base,
 			);
 			mainGroup = 885A8B4429156E9E00DCEE59;
+			packageReferences = (
+				8869E8372915950700AF2BC6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 885A8B4E29156E9F00DCEE59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				885A8B5D29156EA200DCEE59 /* LaunchScreen.storyboard in Resources */,
+				885A8B65291571E400DCEE59 /* GoogleService-Info.plist in Resources */,
 				885A8B5A29156EA100DCEE59 /* Assets.xcassets in Resources */,
 				885A8B5829156E9F00DCEE59 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +177,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C5A630B4D212F90FF9AB4BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavarroSnapchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B232C6D1B1FFDCD5CF1CCD5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavarroSnapchat/Pods-NavarroSnapchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavarroSnapchat/Pods-NavarroSnapchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavarroSnapchat/Pods-NavarroSnapchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		885A8B4929156E9F00DCEE59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885A8B5529156E9F00DCEE59 /* ViewController.swift in Sources */,
+				885A8B5529156E9F00DCEE59 /* IniciarSesionViewController.swift in Sources */,
 				885A8B5129156E9F00DCEE59 /* AppDelegate.swift in Sources */,
 				885A8B5329156E9F00DCEE59 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +368,7 @@
 		};
 		885A8B6229156EA200DCEE59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA545CFC0F30A49934C06E8A /* Pods-NavarroSnapchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +397,7 @@
 		};
 		885A8B6329156EA200DCEE59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3678934FC3E34FEB022AFD0 /* Pods-NavarroSnapchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +446,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8869E8372915950700AF2BC6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8869E8382915950700AF2BC6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8869E8372915950700AF2BC6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8869E83A2915950700AF2BC6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8869E8372915950700AF2BC6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8869E83C2915950700AF2BC6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8869E8372915950700AF2BC6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 885A8B4529156E9E00DCEE59 /* Project object */;
 }

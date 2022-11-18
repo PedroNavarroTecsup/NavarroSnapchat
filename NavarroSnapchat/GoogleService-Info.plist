@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>600914399443-lu4187pm0hl4a9pmsufuamjh2vqbeqeh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.600914399443-lu4187pm0hl4a9pmsufuamjh2vqbeqeh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDN4Ep-EI7xmf8A3VXd02VaAR_Nh3J0BLY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>600914399443</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>deah.com.NavarroSnapchat</string>
+	<key>PROJECT_ID</key>
+	<string>snapchat-72310</string>
+	<key>STORAGE_BUCKET</key>
+	<string>snapchat-72310.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:600914399443:ios:e6b3f94d4da1ed3a40c426</string>
+</dict>
+</plist>
